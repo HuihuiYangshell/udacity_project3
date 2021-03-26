@@ -11,7 +11,6 @@ dockerpath=udacity
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login -u hhdockerhh -p Hh12345678@
 docker tag udacity hhdockerhh/udacity:v1
 
 # Step 3:
