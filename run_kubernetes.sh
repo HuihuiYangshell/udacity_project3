@@ -9,12 +9,12 @@ dockerpath=udacity
 
 # Step 2
 # Run the Docker Hub container with kubernetes
+##### kubectl run $dockerpath --image=hhdockerhh/hhudacity:latest--port=80
 kubectl run $dockerpath --image=hhdockerhh/udacity:v1 --port=80
-
 # Step 3:
 # List kubernetes pods
 kubectl get pod
 # Step 4:
 # Forward the container port to a host
 kubectl expose deployment udacity --type=LoadBalancer --port=80
-minikube service udacity 
+kubectl port-forward service/udacity 8000
