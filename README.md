@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![HuihuiYangshell](https://circleci.com/gh/HuihuiYangshell/udacity_project3.svg?style=svg)](https://github.com/HuihuiYangshell/udacity_project3)
 
 ## Project Overview
 
